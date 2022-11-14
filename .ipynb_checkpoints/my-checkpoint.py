@@ -80,6 +80,7 @@ def hstplot(seris, strlog='log de ', hstsize=20):
     plt.title(('Hist de ' + strlog + seris.name),fontsize=16)
     plt.xlabel((strlog + seris.name),fontsize=16)
     plt.xticks(fontsize=14)
-    plt.ylabel('Nb de bâtiments',fontsize=16)
+    plt.ylabel('Nb de clients',fontsize=16)
+#    plt.ylabel('Nb de bâtiments',fontsize=16)
     plt.yticks(fontsize=14)
     plt.legend
